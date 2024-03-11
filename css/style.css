@@ -9,6 +9,7 @@ body {
     background-color: rgb(73, 18, 246);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 a:visited{
@@ -39,47 +40,37 @@ a:visited{
 .content{
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 .content-item{
     display: flex;
     flex-direction: column;
-}
-.content-item:nth-child(1){
-    flex-grow: 10; 
-}
-.content:nth-child(2){
-    flex-grow: 30; 
+    flex: 0 1 400px;
 }
 .content-item-left{
     display: flex;
-    /* flex-grow: 30; */
-}
-.content-item-left:nth-child(1){
-    position: relative;
-    z-index: 1;
-    width: 100; 
-}
-.content-item-left:nth-child(2){
-    position: relative;
-    z-index: 2;
-    width:105%; 
-}
-.content-item-left:nth-child(5){
-    position: relative;
-    z-index: 2;
-    width:200%; 
+    flex-direction: column;
+    flex: 1;
 }
 
-/* .footer {
-    display: flex;
-    flex: 1;
-} */
+.headline-1{
+    font-size: 12px;
+}
+
+.headline-2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.headline-3{
+
+}
 
 /* Button settings */
 input[type='button']{
     padding: 10px 15px;
     font-weight: bold;
+    font-size: 10px;
     border:0px;
     border-radius: 30px;
     color: white;
