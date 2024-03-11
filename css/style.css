@@ -1,16 +1,87 @@
-@font-face {
-    font-family: TTNormsPro;
-    src:local('../fonts/test.otf');
-    
-}
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* height: 100vh; */
     margin: 0;
+    margin-left: 3%;
 
     background-color: rgb(73, 18, 246);
     color: white;
-    font-family: 'TTNormsPro';
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+    color: white;
+}
+
+/*  */
+.header{
+    display: flex;
+    flex: 1;
+    align-items: center;
     
+}
+
+.header-item{
+    display:flex;
+
+}
+.header-item:nth-child(1){
+    flex-grow: 30; 
+}
+.header-item:nth-child(2){
+    flex-grow: 1;
+}
+.header-item:nth-child(3){
+    flex-grow: 8;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.content-item{
+    display: flex;
+    flex-direction: column;
+}
+.content-item:nth-child(1){
+    flex-grow: 10; 
+}
+.content:nth-child(2){
+    flex-grow: 30; 
+}
+.content-item-left{
+    display: flex;
+    /* flex-grow: 30; */
+}
+.content-item-left:nth-child(1){
+    position: relative;
+    z-index: 1;
+    width: 100; 
+}
+.content-item-left:nth-child(2){
+    position: relative;
+    z-index: 2;
+    width:105%; 
+}
+.content-item-left:nth-child(5){
+    position: relative;
+    z-index: 2;
+    width:200%; 
+}
+
+/* .footer {
+    display: flex;
+    flex: 1;
+} */
+
+/* Button settings */
+input[type='button']{
+    padding: 10px 15px;
+    font-weight: bold;
+    border:0px;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
 }
