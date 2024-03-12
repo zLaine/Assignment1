@@ -1,8 +1,8 @@
+/* 3/12/24
+Zack Laine
+Assignment 1 */
+
 body {
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
-    /* height: 100vh; */
     margin: 0;
     margin-left: 3%;
 
@@ -11,32 +11,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
 }
-
 a:visited{
     color: white;
 }
-
-/*  */
 .header{
     display: flex;
     flex: 1;
     align-items: center;
     margin: 0 0 80px 0;
-    
 }
-
 .header-item{
     display:flex;
-
-}
-.header-item:nth-child(1){
-    flex-grow: 30; 
-}
-.header-item:nth-child(2){
-    flex-grow: 1;
-}
-.header-item:nth-child(3){
-    flex-grow: 8;
 }
 .content{
     display: flex;
@@ -53,22 +38,17 @@ a:visited{
     flex-direction: column;
     flex: 1;
 }
-
 .headline-1{
     font-size: 13px;
 }
-
 .headline-2{
     font-size: 15px;
     font-weight: bold;
 }
-
 .headline-3{
     font-size: 12px;
     font-weight: bold;
 }
-
-/* Button settings */
 input[type='button']{
     padding: 10px 15px;
     font-weight: bold;
@@ -79,14 +59,22 @@ input[type='button']{
     background-color: orange;
 }
 
+
+#logo{
+    flex-grow: 30; 
+}
+#sign-in{
+    flex-grow: 1;
+}
+#try-free{
+    flex-grow: 8;
+}
 #main-content{
     margin-inline: 10%;
 }
-
 #left-column{
     margin-right: 20px;
 }
-
 #right-column{
     margin-left: 20px;
 }
