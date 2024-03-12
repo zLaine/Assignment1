@@ -21,6 +21,7 @@ a:visited{
     display: flex;
     flex: 1;
     align-items: center;
+    margin: 0 0 80px 0;
     
 }
 
@@ -54,7 +55,7 @@ a:visited{
 }
 
 .headline-1{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .headline-2{
@@ -63,7 +64,8 @@ a:visited{
 }
 
 .headline-3{
-
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /* Button settings */
@@ -75,4 +77,16 @@ input[type='button']{
     border-radius: 30px;
     color: white;
     background-color: orange;
+}
+
+#main-content{
+    margin-inline: 10%;
+}
+
+#left-column{
+    margin-right: 20px;
+}
+
+#right-column{
+    margin-left: 20px;
 }
